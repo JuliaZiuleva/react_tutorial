@@ -17,10 +17,10 @@ class Dropdown extends Component {
 
     render() {
         console.log( this.state)
-        let dropdownText = ''
-        if (this.state.isOpened) {
-            dropdownText = <div>text in dropdown</div>
-        }
+        // let dropdownText = ''
+        // if (this.state.isOpened) {
+        //     dropdownText = <div>text in dropdown</div>
+        // }
         
         return (
             <div onClick={this.toggleDropdownState.bind(this)}>
